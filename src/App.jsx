@@ -23,6 +23,8 @@ function App() {
     
     <Routes>
       <Route path='/' element = {<Shop/>}/>
+      <Route path='/Ecom-front' element = {<Shop/>}/>
+
       <Route path='/mens' element = {<Mens/>}/>
       <Route path='/womens' element = {<Womens/>}/>
       <Route path='/kids' element = {<Kids/>}/>
